@@ -1,0 +1,11 @@
+<div class="row center">
+    {% for n in item.valuelist %}
+     <button href=""
+             onclick="{{ item.function }}('{{ item.title }}', '{{ item.valuelist[n] }}');"
+             id="{{ item.title }}"
+             value = "{{ item.valuelist[n] }}"
+             name = "{{ item.title }}"
+{#             class="btn-large waves-effect waves-light white black-text indigo lighten">{{ n }}</button>#}
+             class="btn-large waves-light black indigo ">{{ n }}</button>
+        {% endfor %}
+</div>

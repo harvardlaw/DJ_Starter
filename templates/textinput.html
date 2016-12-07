@@ -1,0 +1,34 @@
+<div id="{{ item.title }}" style="display: {{ item.style }}" >
+
+    <div class="col s12 ">
+
+
+{#        <div class="card-content dark-text">#}
+{#            <div class="card">#}
+{#        <div class="card-content dark-text">#}
+{#            <div class="card">#}
+
+        {% include "card_start.html" %}
+
+                <h3 class="card-title" id="u1-{{ item.title  }}" name="main">  {{ item.question|safe }}  </h3>
+                <h3 class="card-title" id="u2-{{ item.title  }}" name="alt" style="display: none"> {{ item.alternateq }} </h3>
+                    {% include "input.html" %}
+                    <br>
+                    {% include "button_list.html" %}
+                {% include "help.html" %}
+            {% include "reveal.html" %}
+
+            </div>
+        </div>
+    </div>
+</div>
+
+{#                    <div class="card-panel blue-grey darken-3">#}
+{#                  <div class="row">#}
+{#                        <div class="input-field col s12">#}
+{#                             <i class="material-icons prefix">attach_money</i>#}
+{##}
+{#                            <input id="{{ 'x-' }}{{ item.title }}" type="number" class="validate">#}
+{#                          <label for="textarea1">{{ item.question }}</label>#}
+{#                        </div>#}
+{#                    </div>#}
