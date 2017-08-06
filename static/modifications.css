@@ -1,0 +1,102 @@
+
+body {
+    height:100%;
+
+}
+
+.modal {
+    max-height: 90%;
+}
+
+
+.btn-large {
+  height: 104px;
+  /*line-height: 104px;*/
+  width:400px;
+  font-size:35px;
+  margin:0.1rem;
+  word-wrap:break-word;
+  margin-bottom:4px;
+  white-space:normal !important;
+  /*font-size: 2.2vw;*/
+  /*{font-size: 16px; font-size: 4vw;}*/
+}
+/*width: 90%;*/
+.btn-large i {
+  font-size: 5.6rem;
+}
+
+.card-content {
+    font-size:25px;
+}
+
+
+    /*.btn-large {*/
+        /*width: 90%;*/
+        /*height: 80px;*/
+        /*font-size: 45px;*/
+        /*line-height:40px;*/
+    /*}*/
+
+    input[type="text"] {
+        font-size: 55px;
+    }
+
+@media only screen and (max-width: 700px) {
+    .btn-large {
+        width: 90%;
+        height: 80px;
+        font-size: 25px;
+        line-height:40px;
+    }
+
+    input[type="text"] {
+    font-size:25px;
+}
+
+
+
+    /*.card .card-title {*/
+        /*text-align: justify;*/
+        /*font-size: 20px*/
+    /*}*/
+
+}
+
+/*input[type="text"] {*/
+    /*font-size:55px;*/
+/*}*/
+
+
+/*input[type="text"] {*/
+    /*font-size: 25px;*/
+/*}*/
+
+
+input:not([type]),
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=url],
+input[type=time],
+input[type=date],
+input[type=datetime],
+input[type=datetime-local],
+input[type=tel],
+input[type=number],
+input[type=search],
+textarea.materialize-textarea {
+    height:80px;
+}
+
+.tabs .tab {
+    text-transform: capitalize !important;
+}
+
+.btn, .btn-large, .btn-flat {
+    text-transform: capitalize !important;
+}
+.select-wrapper input.select-dropdown {
+    margin: 0 0 0 0 !important;
+    border-bottom: 1px solid black !important;
+}
